@@ -1,0 +1,43 @@
+{
+  "name": "restaurant-reviews-recode",
+  "version": "1.0.0",
+  "description": "Restaurant Project for Udacity",
+  "main": "main.js",
+  "scripts": {
+    "serve": "python -m SimpleHTTPServer 8000",
+    "precommit": "git status",
+    "commit": "git add .",
+    "postcommit": "echo 'git commit -m COMMENTS'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savagewebdev/restaurant-reviews-recode.git"
+  },
+  "keywords": [
+    "Restaurant",
+    "Project",
+    "Udacity"
+  ],
+  "babel": {
+    "presets": ["@babel/preset-env"]
+  },
+  "author": "Robin Savage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savagewebdev/restaurant-reviews-recode/issues"
+  },
+  "homepage": "https://github.com/savagewebdev/restaurant-reviews-recode#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "grunt": "^1.0.3",
+    "grunt-babel": "^8.0.0",
+    "grunt-mkdir": "^1.0.0"
+  },
+  "dependencies": {
+    "grunt-imageoptim": "^1.4.4",
+    "grunt-responsive-images": "^1.10.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
